@@ -1,10 +1,11 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 int main() {
-    std::string frase1 = "Hola, ";
-    std::string frase2 = "mundo!";
-    std::string frase3 = frase1 + frase2;
-    std::cout << frase3 << std::endl;
+    string frase1 = "Hola, ";
+    string frase2 = "mundo!";
+    string frase3 = frase1 + frase2;
+    cout << frase3 << endl;
     return 0;
 }

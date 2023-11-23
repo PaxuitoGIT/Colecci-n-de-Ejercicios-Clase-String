@@ -1,9 +1,10 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 int main() {
-    std::string frase = "Hola gente";
-    std::cout << "Tamaño de la frase: " << frase.size() << std::endl;
-    std::cout << "Esta vacia la frase? " << frase.empty() << std::endl;
+    string frase = "Hola gente";
+    cout << "Tamaño de la frase: " << frase.size() << endl;
+    cout << "Esta vacia la frase? " << frase.empty() << endl;
     return 0;
 }
